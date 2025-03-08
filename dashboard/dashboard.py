@@ -4,7 +4,7 @@ import seaborn as sns
 import pandas as pd
 
 # Memuat dataset yang sudah dibersihkan
-guanyuan_df = pd.read_csv('all_data.csv')
+guanyuan_df = pd.read_csv('dashboard/all_data.csv')
 
 # title untuk dashboard
 st.title('Dashboard Analisis Kualitas Udara di Guanyuan Pada Tahun 2013-2017')
